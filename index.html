@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Pages With JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <header>
+        <h1>Interactive Web Pages With JavaScript</h1>
+        <p>This is a simple web page to demonstrate JavaScript interactivity.</p>
+        <nav>
+            <ul>
+                <li><a href="#javascript-events">JavaScript Events</a></li>
+                <li><a href="#interactive-elements">Interactive Elements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Part 1: JavaScript Event Handling and Interactive Elements -->
+    <section id="javascript-events">
+        <h2>JavaScript Event Handling</h2>
+        <p>JavaScript allows you to add interactivity to your web pages by responding to user events such as clicks, mouse movements, and keyboard input.</p>
+
+        <h3>Example: Button Click Event</h3>
+        <button id="myButton">Click Me!</button>
+        <p id="buttonMessage">This is a message that will change when the button is clicked.</p>
+    </section>
+
+
+
+    <!--  Part 2: Building Interactive Elements -->
+    <section id="interactive-elements">
+        <h2>Building Interactive Elements</h2>
+        <p>You can create various interactive elements using HTML and JavaScript. Here are a few examples:</p>
+
+        <h3>Example: Toggle Visibility</h3>
+        <button id="toggleButton">Toggle Message Visibility</button>
+        <p id="toggleMessage">This message can be shown or hidden.</p>
+
+        <h3>Example: Change Background Color</h3>
+        <button id="colorButton">Change Background Color</button>
+    </section>
+
+
+        <!-- Part 3: Form Validation with JavaScript -->
+        <section id="form-validation">
+        <h2>Form Validation</h2>
+        <p>Ensure users fill out forms correctly with JavaScript validation.</p>
+       <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <span id="nameError"></span>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <span id="emailError"></span>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <span id="passwordError"></span>
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+    </section>
+    <footer>
+        <p>&copy; 2025 Web Development Essentials</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
